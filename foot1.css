@@ -1,0 +1,48 @@
+footer {
+    background-color: #223f26;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.quick-links {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.quick-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.quick-links li a:hover{
+    text-decoration: underline;
+    
+}
+
+/* New styles for icons */
+.quick-links li i {
+    margin-right: 2px; /* Adjust spacing between icon and text */
+}
+
+footer p{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-content h4{
+
+}

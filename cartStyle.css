@@ -1,0 +1,125 @@
+.cart {
+    width: 450px;
+    height: 550px;
+    background-color: rgb(245, 231, 231);
+    position: absolute;
+    right: 25px;
+    top: 60px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 0px;
+    transition-duration: 0.5s;
+}
+
+.cart .cartHeader {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: solid 2px gray;
+    width: 100%;
+}
+
+.cart .cartHeader img {
+    height: 50px;
+    width: auto;
+}
+
+.cart .cartHeader img:nth-child(3) {
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+}
+.cart .itemsContainer{
+    height: 78%;
+    overflow: scroll;
+}
+.cart .itemsContainer::-webkit-scrollbar{
+    display: none;
+}
+.cart .itemsContainer .listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px dashed gray;
+}
+
+.cart .itemsContainer .listItem .image img {
+    height: 60px;
+    width: auto;
+}
+
+.cart .itemsContainer .listItem .image {
+    width: 20%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cart .itemsContainer .listItem h3 {
+    width: 25%;
+}
+
+.cart .itemsContainer .listItem p {
+    width: 20%;
+}
+
+.cart .itemsContainer .listItem .buttonContainer {
+    width: 20%;
+}
+
+.actionButton {
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cart .cartFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 11%;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+.cart .cartFooter div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-left: 2px solid gray;
+    padding: 0px 4px;
+    width: 50%;
+}
+.cart .cartFooter div:nth-child(1){
+    border: none;
+}
+.CheckOut button{
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(19, 131, 19);
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.openCartBox{
+    height: 550px;
+}
+
+ul {
+    list-style: none;
+}

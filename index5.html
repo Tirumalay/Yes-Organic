@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="foot.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SIGNUP</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;          
+        }
+
+        .loginPage {
+             background: url();
+            /* background-color: paleturquoise; */
+            background-color: ghostwhite;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loginContainer {
+            background-color: rgba(255, 255, 255, 0w);
+            width: 25%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 500px;
+            padding: 10px;
+            border-radius: 40px;
+            border: 5px solid black;
+            color: black;
+        }
+
+        .inputItem {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin-top: 10px;
+            font-weight: bolder;
+        }
+
+        .radioInputs {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+            margin-top: 5px;
+            gap: 20px;
+        }
+        .radioItem{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            
+        }
+
+        input::placeholder{
+            color: black;
+            
+        }
+
+        .btn {
+            outline: none;
+            width:200px;
+            margin-top: 20px;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: blue;
+            border-radius: 10px;
+        }
+
+        input[type="radio"] {
+            height: 20px;
+            margin-top: 2px;
+            margin-right: 5px;
+        }
+
+        a{
+            margin-top: 10px;
+            font-size: 14px;
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <form id="containerform">
+    <section class="loginPage">
+        <div class="loginContainer">
+            <h2 style="text-decoration: underline;">Sign Up</h2>
+            
+            <div class="inputItem">
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter Your Name" required>
+            </div>
+
+            <div class="inputItem">
+                <label for="">Mobile Number</label>
+                <input type="number" placeholder="Enter Your Mobile Number" required>
+            </div>
+
+            <div class="inputItem">
+                <label for="">Email Id</label>
+                <input type="text" placeholder="Enter Your Email Id" required>
+            </div>
+
+            <div class="inputItem">
+                <label for="">Gender</label>
+                <div class="radioInputs">
+                    <div class="radioItem">
+                        <input type="radio" name="0" id="1"></input>
+                        <label for="">Male</label>
+                    </div>
+                    <div class="radioItem">
+                        <input type="radio" name="0" id="1"></input>
+                        <label for="">Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inputItem">
+                <label for="">Create Password</label>
+                <input type="password" placeholder="Enter Your Password" required>
+            </div>
+
+            <div class="inputItem">
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="Re-enter your password" required>
+            </div>
+
+            <button type="submit"class="btn">Sign Up</button>
+             
+            <a href="trash.html" style="color: blue; ">Already have an Account?</a>
+            
+        </div>
+        
+    </section>
+</form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        document.getElementById('containerform').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Display SweetAlert popup
+            Swal.fire({
+                title: 'sign up complete!',
+                icon: 'success',
+            }).then(function () {
+                // Redirect to another page after the popup is closed
+                window.location.href = 'index1.html';
+            });
+        });
+    </script>
+     <footer>
+        <div class="footer-content">
+            <h4>QUICK LINKS</h4>
+            <ul class="quick-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>              
+                <li><a href="index2.html"><i class="fas fa-apple-alt"></i> Fruits</a></li>
+                <li><a href="index6.html"><i class="fas fa-carrot"></i> Veggies</a></li>
+                <li><a href="index3.html"><i class="fas fa-bacon"></i> snacks</a></li>
+                <li><a href="index7.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="index4.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="trash.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+                
+            </ul>
+        </div>
+        <p>All Copy Rights Are Reserved &copy 2024 www.yesorganic.com</p>
+    </footer>
+</body>
+
+</html>

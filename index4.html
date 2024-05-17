@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="foot.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body{
+                background-color: ghostwhite;
+                
+            }
+            .contact{
+                height: 500px;
+                width: 400px;
+                
+                float: right;
+                margin: auto;
+                text-decoration: underline;
+                text-decoration-color: skyblue;
+                margin-right: 10%;
+                
+                
+            }
+            .contact button{
+                margin-left: 120px;
+                padding: 10px;
+                width: 150px;
+                border-radius: 20px;
+                background-color: skyblue;
+                color: black;
+                
+            }
+            .contact h1{
+                color: black;
+                margin-left: 120px;
+                margin-top: 100px;
+                margin-bottom: 20px;
+            }
+            .inputs input{
+                margin-bottom: 25px;
+                border-radius: 20px;
+                width: 200px;
+                text-align: left;
+            }
+            .inputs{
+                
+                margin-left: 50px;
+                
+            }
+            
+            
+        </style>
+
+    </head>
+    <body>
+        <form id="containerform">
+        <img style=" margin-top: 30px;margin-left: 150px;" src="cust.png">
+        <div class="contact">
+            <h1>Contact us</h1>
+            <div class="inputs">
+                <input placeholder="Name" style="padding: 15px;width: 260px;"required/><br/>
+                <input placeholder="E-mail" style="padding: 15px;width: 260px;"required/><br/>
+                <input placeholder="Message" style="padding: 20px;width: 255px;"required/>
+            </div>
+            <button type="submit">submit</button>
+        </div>
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+   <script>
+       document.getElementById('containerform').addEventListener('submit', function (event) {
+           event.preventDefault(); // Prevent default form submission
+
+           // Display SweetAlert popup
+           Swal.fire({
+               title: 'Thank you for contacting us!',
+               icon: 'success',
+           }).then(function () {
+               // Redirect to another page after the popup is closed
+               window.location.href = 'index1.html';
+           });
+       });
+   </script>
+    <footer>
+        <div class="footer-content">
+            <h4>QUICK LINKS</h4>
+            <ul class="quick-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>              
+                <li><a href="index2.html"><i class="fas fa-apple-alt"></i> Fruits</a></li>
+                <li><a href="index6.html"><i class="fas fa-carrot"></i> Veggies</a></li>
+                <li><a href="index3.html"><i class="fas fa-bacon"></i> snacks</a></li>
+                <li><a href="index7.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="index4.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="trash.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+                
+            </ul>
+        </div>
+        <p>All Copy Rights Are Reserved &copy 2024 www.yesorganic.com</p>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding-top: 10px; 
+            background: url(backdrop3.jpg); 
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+
+        }
+
+        .loginPage {
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .loginContainer {
+            background-color: rgba(255, 255, 255, 0w);
+            width: 25%;
+            margin: auto;
+            margin-top: 130px;
+            margin-left: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 350px;
+            padding: 10px;
+            border-radius: 45px;
+            border: 3px solid white;
+            color:white;
+            box-shadow: 3px 3px white;
+            padding-top: 30px;
+        }
+
+        .inputItem {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin-top: 10px;
+            font-weight: bolder;
+            padding-bottom: 10px;
+        }
+        input {
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: transparent;
+            color: white;
+            font-weight: lighter;
+        }   
+
+        input::placeholder{
+            color: white;
+        }
+
+        .btn {
+            outline: none;
+            width:200px;
+            margin-top: 20px;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            background-color: blue;
+            border-radius: 10px;
+        }
+
+        a{
+            margin-top: 10px;
+            font-size: 14px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="containerform">
+        <section class="loginPage">
+            <div class="loginContainer">
+    <div class="box">
+       <h1 style="font-weight: bold;font-style: italic;text-decoration: underline;text-align: center;padding-bottom: 10px;">Log In</h1>
+       <div class="inputItem">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter Your Name" required>
+    </div>
+
+    <div class="inputItem">
+        <label for="">Mobile Number</label>
+        <input type="number" placeholder="Enter Your Mobile Number" required>
+    </div>
+    <div class="inputItem">
+        <label for="">Enter Password</label>
+        <input type="text" placeholder="Enter Your Password" required>
+    </div>
+    <button type="submit"class="btn">Log In</button>
+    </div>
+    </div>
+    </section>
+   </form>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+   <script>
+       document.getElementById('containerform').addEventListener('submit', function (event) {
+           event.preventDefault(); // Prevent default form submission
+
+           // Display SweetAlert popup
+           Swal.fire({
+               title: 'Successful Login!',
+               icon: 'success',
+           }).then(function () {
+               // Redirect to another page after the popup is closed
+               window.location.href = 'index1.html';
+           });
+       });
+   </script>
+     <footer>
+        <div class="footer-content">
+            <h4>QUICK LINKS</h4>
+            <ul class="quick-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>              
+                <li><a href="index2.html"><i class="fas fa-apple-alt"></i> Fruits</a></li>
+                <li><a href="index6.html"><i class="fas fa-carrot"></i> Veggies</a></li>
+                <li><a href="index3.html"><i class="fas fa-bacon"></i> snacks</a></li>
+                <li><a href="index7.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="index4.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="trash.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+                
+            </ul>
+        </div>
+        <p>All Copy Rights Are Reserved &copy 2024 www.yesorganic.com</p>
+    </footer>
+</body>
+</html>
