@@ -10,10 +10,10 @@ GitHub Repository URL: https://github.com/itsram175/examspotguide
 Industry: Travel - Education
 # Roles and responsibilities
 
-Y Tirumala (Project management) : Manages the web development project.
-R Rajganesh (Deployment) : Deployment and maintenance of project infrastructure.
-K Aravinda swamy (Data and chat bot questions) : Responsible for gathering data required for website and chat bot questions.
-B Sandhya (Images and Documentation) : Responsible for collecting Images required for website and managing the documentation process.
+1. Y Tirumala (Project management) : Manages the web development project.
+2. R Rajganesh (Deployment) : Deployment and maintenance of project infrastructure.
+3. K Aravinda swamy (Data and chat bot questions) : Responsible for gathering data required for website and chat bot questions.
+4. B Sandhya (Images and Documentation) : Responsible for collecting Images required for website and managing the documentation process.
 # Azure services used:
 
 Azure blob storage
