@@ -34,43 +34,25 @@ The Title of our project is organic framing. This website provides the informati
 
 # Screenshot’s:
 
-Storage Account
+# Storage Account
 
-storage account
+# Static website
 
-Static website
+# Container
 
-static website
+# Backup vault
 
-Container
+# Role assignment
 
-container
+# Backup policy
 
-Backup vault
+# Azure Bot
 
-backup vault
+# Test in web chat
 
-Role assignment
+# Resource visualizer
 
-role assignment
-
-Backup policy
-
-backup policy
-
-Azure Bot
-
-azure bot
-
-Test in web chat
-
-test in webchat
-
-Resource visualizer
-
-resource visualizer
-
-Description
+# Description
 
 Here I am attaching the final working website's screenshot for the reference.
 
