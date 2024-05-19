@@ -4,10 +4,10 @@ This website provides the information about various Computer Based Test (CBT) Ex
 
 # Project Details
 
-Project Demo URL: https://esgstorageaccount123.z13.web.core.windows.net/
-Demo Video URL: https://youtu.be/FfWw0bpEBI0
-GitHub Repository URL: https://github.com/itsram175/examspotguide
-Industry: Travel - Education
+1. Project Demo URL: https://esgstorageaccount123.z13.web.core.windows.net/
+2. Demo Video URL: https://youtu.be/FfWw0bpEBI0
+3. GitHub Repository URL: https://github.com/itsram175/examspotguide
+4. Industry: Travel - Education
 # Roles and responsibilities
 
 1. Y Tirumala (Project management) : Manages the web development project.
@@ -16,12 +16,12 @@ Industry: Travel - Education
 4. B Sandhya (Images and Documentation) : Responsible for collecting Images required for website and managing the documentation process.
 # Azure services used:
 
-Azure blob storage
-Storage account
-Azure Backup service
-Azure AI services
-chatbot
-Azure Role Based access Control(RBAC)
+1. Azure blob storage
+2. Storage account
+3. Azure Backup service
+4. Azure AI services
+5. chatbot
+6. Azure Role Based access Control(RBAC)
 # Problem Statement:
 
 Access to organic food is often limited, and small farmers face challenges reaching a broader market. Traditional methods of purchasing organic products may not be convenient or accessible for everyone, while small-scale farmers struggle to compete with larger agricultural businesses. However, online platforms present an opportunity to bridge this gap by connecting farmers directly to consumers, making organic food more accessible and supporting small-scale producers. These platforms can also educate consumers about the benefits of organic farming, fostering greater awareness and support for sustainable agricultural practices. By leveraging technology and online connectivity, stakeholders can work towards creating a more inclusive and sustainable food system that benefits both producers and consumers alike.
