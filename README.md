@@ -35,73 +35,45 @@ The Title of our project is organic framing. This website provides the informati
 # Screenshot’s:
 
 # Storage Account
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/storage%20account.png
 # Static website
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/static%20website.png
 # Container
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/container.png
 # Backup vault
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/Backup%20vault.png
 # Role assignment
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/Role%20Assignment.png
 # Backup policy
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/Backup%20policy.png
 # Azure Bot
-
-# Test in web chat
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/Azure%20Bot.png
 # Resource visualizer
-
+https://github.com/Tirumalay/Yes-Organic/blob/main/Resource%20Visualizer.png
 # Description
 
 Here I am attaching the final working website's screenshot for the reference.
 
 Working Live Project Display:
 
-Home page
-
-home
-
-Exam Centres
-
-Exam Centres
-
-About Us
-
-About Us
-
-Our Team
-
-Our Team
-
-Contact Us
-
-contact Us
-
-Exam Centres
-
-Exam Centres
-
-Exam Centre Overview
-
-Overview
-
-About Exam Centre
-
-About Exam Centre
-
-Exam Centre Photo Gallery
-
-Photo Gallery
-
-Route Guide
-
-Route Guide
-
-Footer
-
-contact page
+# Home page
+https://github.com/Tirumalay/Yes-Organic/blob/main/HomePage.png
+# About Us
+https://github.com/Tirumalay/Yes-Organic/blob/main/About.png
+# Vegetables Page
+https://github.com/Tirumalay/Yes-Organic/blob/main/Vegetables.png
+# Fruits Page
+https://github.com/Tirumalay/Yes-Organic/blob/main/Fruits.png
+# Snaks Page
+https://github.com/Tirumalay/Yes-Organic/blob/main/snaks.png
+# Contact Page
+https://github.com/Tirumalay/Yes-Organic/blob/main/Contact.png
+# Sign up Page
+https://github.com/Tirumalay/Yes-Organic/blob/main/Sign%20in.png
+# Login page
+https://github.com/Tirumalay/Yes-Organic/blob/main/Login.png
 
 Final Project Statement:
 
-Our website helps the canditates who are appearing for various competative and entrance examinations in various CBT Examination centres across Hyderabad. We provide valuable information about CBT exam centres such as facilities provided by the exam centres, location of the exam centre, how to reach the exam from key Bus stations and Railways Station in Hyderabad.
+At YesOrganic, we're passionate about providing you with the freshest, highest quality organic produce and groceries, sourced directly from local farmers and trusted suppliers who share our commitment to sustainability and environmental responsibility
+
