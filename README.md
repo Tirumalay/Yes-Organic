@@ -8,7 +8,7 @@ Welcome to YesOrganic, where we believe in bringing the goodness of nature to yo
 1. Project Demo URL: https://yesorganicstorage.z13.web.core.windows.net/
 2. Demo Video URL: https://youtu.be/yPPg7Pq4oP0
 3. GitHub Repository URL: https://github.com/Tirumalay/Yes-Organic
-4. Industry: Food - Yes Organic Store
+4. Industry: Health - Yes Organic Store
 # Roles and responsibilities
 
 1. Y Tirumala (Project management) : Manages the web development project.
